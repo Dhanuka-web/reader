@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*.bg-dark{
+  background-color: #ffd104 !important;
+  color: #0000 !important;
+}*/
+.bgcolr{
+
+  width: 100%;
+  padding: 2%;
+
+}
+.justify-content-md-center{
+  margin-top: 2%;
+  padding: 2%;
+}
+.fom{
+  width: 50%;
+  text-align: center;
+  background-color:#1bb6ca;
+  padding: 20px;
+  border-radius: 10px;
+}
+.footer{
+  background-color: #1bb6ca;
+  color: #ffff;
+}
+.foot{
+  margin-top: 2%;
+  padding: 2px;;
+}
+.mr-auto{
+  float: right;
+}
+.nav{
+  background-color: #34929e;
+  color: #0000 !important;
+}
+.border{
+  width: 100%;
+  background-color: #5357ac ;
+}
+.CardDeck {
+  display: flex;
+  flex-flow: row wrap;
+   margin-right: 15px !important; 
+  margin-left: 15px !important; 
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+.fa-instagram {
+  color: #ffff;
+}
+.fa-facebook {
+  color: #ffff;
+
+}
+.fa-linkedin{
+  color: #ffff;
+}
+
